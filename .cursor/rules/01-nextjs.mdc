@@ -1,0 +1,15 @@
+---
+description: Next.js App Router conventions
+alwaysApply: true
+---
+
+This project uses Next.js with the App Router.
+
+Rules:
+- Use the `app/` directory exclusively
+- Prefer Server Components by default
+- Use Client Components only when required for interactivity
+- Mark Client Components explicitly with `"use client"`
+- Use async Server Components for data fetching
+- Do not use `getServerSideProps` or `getStaticProps`
+- Use `app/api` for backend routes

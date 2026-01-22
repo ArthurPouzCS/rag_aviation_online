@@ -1,0 +1,12 @@
+---
+description: End-to-end testing with Playwright
+alwaysApply: true
+---
+
+Testing rules:
+- Use Playwright exclusively for end-to-end testing
+- Focus tests on critical user flows
+- Avoid testing implementation details
+- Keep tests deterministic and independent
+- Do not mock internal application logic unnecessarily
+- Ensure tests are readable and easy to maintain

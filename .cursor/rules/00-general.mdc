@@ -1,0 +1,14 @@
+---
+description: Global coding standards for the project
+alwaysApply: true
+---
+
+You are working on a production Next.js application.
+
+General rules:
+- Use TypeScript everywhere
+- Prioritize clarity, readability, and maintainability
+- Follow existing project conventions strictly
+- Avoid unnecessary abstractions or premature optimization
+- Do not introduce new libraries without clear justification
+- Never guess requirements; ask if something is unclear

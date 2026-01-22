@@ -1,0 +1,17 @@
+---
+description: UI and component conventions
+alwaysApply: true
+---
+
+Component rules:
+- One React component per file
+- Prefer small, focused components
+- Use functional components only
+- Use named exports (no default exports)
+- Keep UI components free of business logic
+- Extract reusable UI patterns into shared components
+
+Styling:
+- Use Tailwind CSS exclusively for styling
+- Avoid inline styles
+- Avoid custom CSS unless strictly necessary

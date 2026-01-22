@@ -1,0 +1,12 @@
+---
+description: Data fetching and state management rules
+alwaysApply: true
+---
+
+Data fetching rules:
+- Fetch data on the server whenever possible
+- Prefer server-side data fetching over client-side
+- Use client-side fetching only for highly interactive features
+- Avoid unnecessary global state
+- Keep state local when possible
+- Do not mix data fetching logic directly inside UI components

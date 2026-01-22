@@ -1,0 +1,12 @@
+---
+description: API routes and validation standards
+alwaysApply: true
+---
+
+API rules:
+- All API routes must validate input using Zod
+- Validate both request payloads and responses when applicable
+- Never trust client input
+- Keep API handlers thin
+- Move business logic into separate functions or services
+- Return consistent and predictable response shapes

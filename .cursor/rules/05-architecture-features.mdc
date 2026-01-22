@@ -1,0 +1,12 @@
+---
+description: Feature-based architecture conventions
+alwaysApply: true
+---
+
+Architecture rules:
+- Organize code by feature, not by file type
+- Group components, logic, and API related to a feature together
+- Avoid large shared folders with unrelated logic
+- Keep cross-feature shared code minimal and explicit
+- Use clear, consistent naming for features and folders
+- Prefer kebab-case for files and directories
